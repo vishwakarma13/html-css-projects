@@ -1,0 +1,31 @@
+.main{
+    height: 400px;
+    width: 450px;
+    background-color:white;
+    border-radius: 10px;
+    margin: auto;
+  }
+  
+  body{
+    background-image: linear-gradient(150deg,blue,red);
+  }
+  
+  h1{
+    text-align: center;
+    padding:10px;
+  }
+  .subo{
+    height: 300;
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    color: grey;
+  }
+  
+  .login{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }
