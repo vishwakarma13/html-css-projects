@@ -1,0 +1,21 @@
+div{
+    height: 400px;
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+body{
+    padding-top: 70px;
+}
+
+html{
+    min-height: 100vh;
+    background: linear-gradient(150deg, blue, red);
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
