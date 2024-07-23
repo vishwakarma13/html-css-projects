@@ -1,13 +1,13 @@
-div{
-    height: 400px;
-    width: 350px;
+.div-main{
+    height: 80vh;
+    width: 65%;
     background: white;
     border-radius: 10px;
     margin: auto;
 }
 
 body{
-    padding-top: 70px;
+    margin-top: 10vh;
 }
 
 html{
@@ -18,4 +18,45 @@ html{
 h1{
     text-align: center;
     padding-top: 15px;
+}
+
+.input-space{
+    outline: transparent;
+    border: transparent;
+    width: 100%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.div-sub{
+    width: 75%;
+    margin: auto;
+
+}
+
+input[type="button"]{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5%;
+    background: linear-gradient(0deg, yellow, orange);
+}
+
+h4 {
+    text-align: center;
+    color: grey;
+    /* margin-left: auto;
+    margin-right: auto; 
+    Margin doesn work here because h4 is a block level element and is taking whole line space */
+}
+
+a{
+    color: rgb(90, 46, 209);
+    text-decoration: none;
 }
