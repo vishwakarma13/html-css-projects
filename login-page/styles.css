@@ -3,8 +3,9 @@
     width: 450px;
     background-color:white;
     border-radius: 10px;
-    margin: auto;
-    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
   }
   
   html{
@@ -12,23 +13,18 @@
     background: linear-gradient(150deg,blue,red);
   }
 
-  body{
-    padding-top: 100px;
-    padding-top: 100px; 
-  }
-
 
   h1{
     text-align: center;
     padding:20px;
-    margin: 0;
   }
+  
   .sub-div{
-    height: 300;
+    height: 300px;
     width: 350px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px 0;
-    background-color: white;
     color: grey;
   }
   
