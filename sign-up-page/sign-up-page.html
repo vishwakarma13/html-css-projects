@@ -11,16 +11,18 @@
         <h1>Register</h1>
         <hr>
         <div class="div-sub">
-            <input class="input-space" type="text" placeholder="Name"></input>
-            <hr>
-            <input class="input-space" type="email" placeholder="Email"></input>
-            <hr>
-            <input class="input-space" type="password" placeholder="Password"></input>
-            <hr>
-            <input class="input-space" type="password" placeholder="Confirm Password"></input>
-            <hr>
-            <input type="button" value="Sign Up">
-            <h4>Have an Account? <a href="some-link">Login Here</a></h4>
+            <form method="post" action="">
+                <input name="name" class="input-space" type="text" placeholder="Name" maxlength="25"></input>
+                <hr>
+                <input name="email" class="input-space" type="email" placeholder="Email"></input>
+                <hr>
+                <input name="password" class="input-space" type="password" placeholder="Password" minlength="10"></input>
+                <hr>
+                <input name="password" class="input-space" type="password" placeholder="Confirm Password" minlength="10"></input>
+                <hr>
+                <input type="submit" value="Sign Up">
+            </form>
+            <h4>Have an Account? <a href="">Login Here</a></h4>
         </div>
     </div>
 </body>
