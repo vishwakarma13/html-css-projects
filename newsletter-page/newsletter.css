@@ -1,7 +1,52 @@
+html{
+    background-color: rgb(252, 136, 99);
+}
 div{
     text-align: center;
+    height: 100%;
+    width: 80%;
+    margin: 40vh auto;
+
 }
 
 h1{
     font-size: 3em;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+p, h1{
+    font-family: monospace;
+    color: white;
+}
+
+input[type="text"]{
+    width: 300px;
+    height: 42px;
+    border-color: red;
+    border-style: solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0;
+    outline: none;
+    font-size: 18px;
+}
+
+input[type="submit"]{
+    height: 46px;
+    border-color: red;
+    border-style: solid;
+    background-color: red;
+    color: white;
+    width: 100px;
+    font-size: 17px;
+    font-family: monospace;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
 }
