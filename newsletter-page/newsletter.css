@@ -1,30 +1,43 @@
 html{
-    background-color: rgb(252, 136, 99);
+    background-color: beige;
+    height: 100%;
 }
-div{
+
+.parentdiv{
+   
+}
+
+.childdiv{
     text-align: center;
     height: 100%;
     width: 80%;
-    margin: 40vh auto;
+    background-color: black ;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+}   
 
+img{
+    width: 70%;
+    border-radius: 10px;
 }
 
 h1{
+    margin: 0 auto;
     font-size: 3em;
+    color: #ebebe5;
+    font-family: monospace;
 }
 
 p{
     font-size: 20px;
     text-align: center;
-    
-}
-
-p, h1{
-    font-family: monospace;
     color: white;
+    font-family: monospace;
 }
 
-input[type="text"]{
+
+input[type="email"]{
     width: 300px;
     height: 42px;
     border-color: red;
@@ -44,9 +57,11 @@ input[type="submit"]{
     color: white;
     width: 100px;
     font-size: 17px;
-    font-family: monospace;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-
-
+    outline: none;
 }
+
+::placeholder {
+    text-align: center; 
+ }
