@@ -71,5 +71,51 @@ p{
 
 nav{
     background-color: black;
-    height: 10vh;
+    height: 12vh;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+    line-height: 3;
+    
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin: 0 1rem
+}
+
+ul{
+    float: right;
+    
+}
+
+#req-submit{
+    background-color: grey;
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#sign-in{
+    background-color: lightskyblue;
+    color: white;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
